@@ -17,7 +17,7 @@ require('dotenv').config()
 
 app.use(express.json())
 
-app.use('/api/v1/todos', todosRoutes)
+app.use('https://arcane-bayou-22136.herokuapp.com/api/v1/todos', todosRoutes)
 
 
 // app.use(bodyParser.json());
